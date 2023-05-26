@@ -1,11 +1,10 @@
 import { useState } from "react";
-// import photo from "./img/geometrico.jpg"
 
 const menuLi = [
-    { href: '#frontend', label: 'Frontend' },
-    { href: '#photography', label: 'Photography' },
-    { href: '#makeup', label: 'Makeup' },
-    { href: '#cooking', label: 'Cooking' },
+    { href: '/frontend', label: 'Frontend' },
+    { href: '/photography', label: 'Photography' },
+    { href: '/makeup', label: 'Makeup' },
+    { href: '/cooking', label: 'Cooking' },
 ]
 
 const Header = () => {
@@ -15,7 +14,6 @@ const Header = () => {
     }
 
     return (
-        <>
             <header>
                 <nav>
                     <a className='logo' href='/'>Waleska Melo</a>
@@ -36,7 +34,6 @@ const Header = () => {
                 {/* <img src={photo} alt="" /> */}
                 {/* </div> */}
             </header>
-        </>
     )
 }
 export default Header
